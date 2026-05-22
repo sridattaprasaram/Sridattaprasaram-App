@@ -273,6 +273,7 @@ export default function App() {
       durmuhurtam: "दुर्मुहूर्त",
       durmuhurtamValue: "सुबह 8:23 - सुबह 9:14, दोपहर 12:38 - दोपहर 1:29",
       rahukaalamFull: "राहुकाल",
+      rahukaalamFullValue: "सुबह 10:37 - दोपहर 12:12",
       yamagandam: "यमगंडम",
       yamagandamValue: "दोपहर 3:23 - शाम 4:59",
       gulikaKaalam: "गुलिका काल",
@@ -422,7 +423,7 @@ export default function App() {
     visible: { 
       opacity: 1, 
       y: 0, 
-      transition: { duration: 0.8, ease: [0.16, 1, 0.3, 1] } 
+      transition: { duration: 0.8, ease: [0.16, 1, 0.3, 1] as any } 
     }
   };
 
